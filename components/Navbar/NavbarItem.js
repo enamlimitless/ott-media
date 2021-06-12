@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NavbarItem = ({ Icon, title }) => {
-    console.log(Icon)
+    // console.log(Icon)
     return (
         <div className="group flex flex-col items-center cursor-pointer w-12 hover:text-yellow-400">
             <Icon className="h-8 mb-2 group-hover:animate-bounce" />
